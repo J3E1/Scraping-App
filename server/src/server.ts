@@ -7,7 +7,7 @@ import { json } from 'body-parser';
 import SBRouter from './Routes/SBRoutes';
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 99;
 
 app.use(json());
 app.use(
