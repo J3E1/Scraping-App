@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_SERVER_URL;
+// const API_URL = import.meta.env.VITE_SERVER_URL;
+const API_URL = `http://localhost:99/api/scrap`;
 
 export type ScrappedData = {
 	title: string;
@@ -18,7 +19,7 @@ type ResponseErrorType = {
 };
 type ResponseSuccessType = {
 	status: 1;
-	data: ScrappedData |string;
+	data: ScrappedData | string;
 };
 
 export const scrapUrl = async (url: string, screenshotMode = false) => {
