@@ -19,8 +19,8 @@ To get started with this project, please follow these steps:
 
 
 Replace `your_scrapingbee_api_key` and `your_google_safe_browsing_api_key` with your actual API keys.
-1. Run `npm install` to install the dependencies of the server and  then change directory to client and run `npm install` to install the dependencies of client.
-2. After installing dependencies, run `npm run dev` from root Dir to run the server and client concurrently.
+5. Run `npm install` to install the dependencies of the server and  then change directory to client and run `npm install` to install the dependencies of client.
+6. After installing dependencies, run `npm run dev` from root Dir to run the server and client concurrently.
 
 ## Technologies Used
 
